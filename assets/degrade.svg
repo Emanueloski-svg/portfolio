@@ -1,0 +1,38 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="3297" height="4397" viewBox="0 0 3297 4397" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Degrade">
+<g id="Ellipse 4" filter="url(#filter0_f_0_33)">
+<circle cx="1150.5" cy="3340.5" r="484.5" fill="#92BCF0"/>
+</g>
+<g id="Ellipse 3" filter="url(#filter1_f_0_33)">
+<circle cx="2182.5" cy="2355.5" r="528.5" fill="#57BDAE"/>
+</g>
+<g id="Ellipse 2" filter="url(#filter2_f_0_33)">
+<circle cx="964" cy="1463" r="411" fill="#F12829"/>
+</g>
+<g id="Ellipse 1" filter="url(#filter3_f_0_33)">
+<circle cx="1885.5" cy="679.5" r="276.5" fill="#F3BF26"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_33" x="94" y="2284" width="2113" height="2113" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="286" result="effect1_foregroundBlur_0_33"/>
+</filter>
+<filter id="filter1_f_0_33" x="1068" y="1241" width="2229" height="2229" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="293" result="effect1_foregroundBlur_0_33"/>
+</filter>
+<filter id="filter2_f_0_33" x="0" y="499" width="1928" height="1928" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="276.5" result="effect1_foregroundBlur_0_33"/>
+</filter>
+<filter id="filter3_f_0_33" x="1206" y="0" width="1359" height="1359" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="201.5" result="effect1_foregroundBlur_0_33"/>
+</filter>
+</defs>
+</svg>
