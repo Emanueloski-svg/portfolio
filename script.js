@@ -17,18 +17,42 @@ if (toggle && navLinks) {
 
 const form = document.getElementById('contact-form');
 
+// Envía el formulario por FormSubmit, que reenvía el mensaje por mail
 if (form) {
-  form.addEventListener('submit', (event) => {
+  const button = form.querySelector('.btn-submit');
+  const status = form.querySelector('.form-status');
+  const endpoint = form.action.replace('formsubmit.co/', 'formsubmit.co/ajax/');
+
+  const showStatus = (message, type) => {
+    status.textContent = message;
+    status.dataset.type = type;
+  };
+
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    const button = form.querySelector('.btn-submit');
     const originalText = button.textContent;
     button.disabled = true;
-    button.textContent = 'Enviado ✓';
-    form.reset();
-    setTimeout(() => {
+    button.textContent = 'Enviando…';
+    showStatus('', '');
+
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || String(result.success) !== 'true') {
+        throw new Error(result.message || 'Error al enviar');
+      }
+      form.reset();
+      showStatus('¡Gracias! Tu mensaje fue enviado, te responderé pronto.', 'success');
+    } catch (error) {
+      showStatus('No se pudo enviar el mensaje. Escríbeme directamente a oliveraemanuel96@gmail.com.', 'error');
+    } finally {
       button.disabled = false;
       button.textContent = originalText;
-    }, 2500);
+    }
   });
 }
 
