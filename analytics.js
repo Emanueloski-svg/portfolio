@@ -1,6 +1,6 @@
 // Google Analytics 4
 // ID de medición: en Google Analytics → Administrar → Flujos de datos → Web
-const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX';
+const GA_MEASUREMENT_ID = 'G-L6X8JC4CZ9';
 
 (() => {
   const isConfigured = /^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID) && GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX';
