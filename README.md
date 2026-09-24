@@ -35,6 +35,6 @@ Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no oc
 
 ## Notas
 
-El formulario de contacto envía los mensajes a oliveraemanuel96@gmail.com a través de [FormSubmit](https://formsubmit.co) (gratis, sin cuenta). La primera vez que alguien lo usa, FormSubmit manda un mail de activación a esa casilla: hay que confirmarlo una única vez para empezar a recibir los mensajes.
+El formulario de contacto envía los mensajes a oliveraemanuel96@gmail.com a través de [FormSubmit](https://formsubmit.co) (gratis, sin cuenta). En el `action` del formulario se usa el código alias que dio FormSubmit en vez del mail, para no exponer la dirección a bots.
 
 Al actualizar `styles.css` o `script.js`, subí el número de versión (`?v=2`, `?v=3`…) en los `<link>` y `<script>` de las páginas para que los navegadores no usen la versión en caché.
