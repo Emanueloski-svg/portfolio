@@ -35,4 +35,6 @@ Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no oc
 
 ## Notas
 
-El formulario de contacto es solo de interfaz (no envía datos a ningún backend todavía). Para que funcione de verdad, conectalo a un servicio como Formspree, un endpoint propio, o similar.
+El formulario de contacto envía los mensajes a oliveraemanuel96@gmail.com a través de [FormSubmit](https://formsubmit.co) (gratis, sin cuenta). La primera vez que alguien lo usa, FormSubmit manda un mail de activación a esa casilla: hay que confirmarlo una única vez para empezar a recibir los mensajes.
+
+Al actualizar `styles.css` o `script.js`, subí el número de versión (`?v=2`, `?v=3`…) en los `<link>` y `<script>` de las páginas para que los navegadores no usen la versión en caché.
