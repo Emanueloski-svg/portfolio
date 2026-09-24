@@ -5,7 +5,8 @@ Sitio de portfolio personal de Emanuel Olivera, diseñador gráfico y artista 3D
 ## Estructura
 
 - `index.html` — marcado de las secciones Sobre mí, Proyectos y Contacto
-- `styles.css` — estilos y diseño responsive
+- `proyectos/` — una subpágina por proyecto (descripción, ficha, imagen y navegación anterior/siguiente)
+- `styles.css` — estilos y diseño responsive (home y subpáginas)
 - `script.js` — menú móvil y feedback del formulario de contacto
 - `assets/` — imágenes y assets exportados desde Figma
 
@@ -18,6 +19,19 @@ npx serve .
 ```
 
 o simplemente abrir `index.html` en el navegador.
+
+## Agregar imágenes a un proyecto
+
+Guardá la imagen en `assets/` y agregá otro `<figure>` dentro de `.project-gallery` en la subpágina correspondiente:
+
+```html
+<figure>
+  <img src="../assets/mi-imagen.jpg" alt="Descripción" loading="lazy" />
+  <figcaption>Texto opcional</figcaption>
+</figure>
+```
+
+Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no ocupan todo el ancho.
 
 ## Notas
 
