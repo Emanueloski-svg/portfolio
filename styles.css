@@ -6,7 +6,8 @@
   --field-border: rgba(255, 255, 255, 0.25);
   --accent: #f5c518;
   --max-width: 1280px;
-  --font: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-display: 'Syne', 'Manrope', system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -95,17 +96,17 @@ header, main, footer { position: relative; z-index: 1; }
 
 .section-heading h2 { margin: 0; }
 
-h1, h2, h3 { font-family: var(--font); margin: 0 0 16px; }
+h1, h2, h3 { font-family: var(--font-display); margin: 0 0 16px; letter-spacing: -0.01em; }
 
 h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 64px;
   line-height: 1.1;
   max-width: 560px;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 64px;
 }
 
@@ -192,8 +193,8 @@ h2 {
 .project-caption { padding: 16px 0 0; }
 
 .project-caption h3 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   margin: 0 0 4px;
   transition: color 0.2s ease;
 }
@@ -279,7 +280,7 @@ h2 {
 .project-pager a { display: flex; flex-direction: column; gap: 6px; }
 .project-pager a:last-child { text-align: right; }
 .project-pager span { font-size: 14px; color: var(--muted); }
-.project-pager strong { font-size: 24px; font-weight: 600; }
+.project-pager strong { font-family: var(--font-display); font-size: 24px; font-weight: 700; }
 .project-pager a:hover strong { color: var(--accent); }
 
 .project-contact {
@@ -298,7 +299,7 @@ h2 {
   color: #111;
   border-radius: 20px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 1px;
   transition: transform 0.2s ease, background 0.2s ease;
 }
@@ -348,7 +349,7 @@ h2 {
 
 .field label {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--muted);
 }
 
@@ -379,7 +380,7 @@ h2 {
   border: none;
   border-radius: 20px;
   font-family: var(--font);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
   cursor: pointer;

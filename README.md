@@ -6,7 +6,7 @@ Sitio de portfolio personal de Emanuel Olivera, diseñador gráfico y artista 3D
 
 - `index.html` — marcado de las secciones Sobre mí, Proyectos y Contacto
 - `proyectos/` — una subpágina por proyecto (descripción, ficha, imagen y navegación anterior/siguiente)
-- `styles.css` — estilos y diseño responsive (home y subpáginas)
+- `styles.css` — estilos y diseño responsive (home y subpáginas). Tipografías de Google Fonts: Syne (títulos) y Manrope (texto)
 - `script.js` — menú móvil y feedback del formulario de contacto
 - `assets/` — imágenes y assets exportados desde Figma
 
