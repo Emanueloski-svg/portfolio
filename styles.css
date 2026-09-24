@@ -27,16 +27,11 @@ img { max-width: 100%; display: block; }
 
 a { color: inherit; text-decoration: none; }
 
+/* Degradé original de Figma (assets/degrade.svg rasterizado a degrade.webp) */
 .bg-glow {
-  position: fixed;
-  inset: -20% -30% auto -30%;
-  height: 140vh;
-  background:
-    radial-gradient(circle at 15% 20%, rgba(230, 60, 60, 0.35), transparent 45%),
-    radial-gradient(circle at 55% 10%, rgba(240, 200, 60, 0.28), transparent 40%),
-    radial-gradient(circle at 85% 35%, rgba(60, 140, 230, 0.32), transparent 45%),
-    radial-gradient(circle at 40% 60%, rgba(60, 200, 140, 0.22), transparent 50%);
-  filter: blur(60px);
+  position: absolute;
+  inset: 0;
+  background: url('assets/degrade.webp') center top / 229% 100% no-repeat;
   z-index: 0;
   pointer-events: none;
 }
@@ -136,15 +131,6 @@ h2 {
   max-width: 528px;
   aspect-ratio: 1 / 1;
   position: relative;
-}
-
-.about-photo::before {
-  content: '';
-  position: absolute;
-  inset: 8%;
-  border-radius: 50%;
-  background: radial-gradient(circle at 50% 40%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0) 70%);
-  z-index: -1;
 }
 
 .about-photo img { width: 100%; height: 100%; object-fit: contain; }
@@ -427,6 +413,7 @@ h2 {
 
 /* Responsive */
 @media (max-width: 960px) {
+  .bg-glow { background-size: 250% auto; background-repeat: repeat-y; }
   .about { grid-template-columns: 1fr; }
   .about-photo { justify-self: center; max-width: 340px; order: -1; }
   .projects-grid { grid-template-columns: 1fr; gap: 40px; }
