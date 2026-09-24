@@ -33,6 +33,10 @@ Guardá la imagen en `assets/` y agregá otro `<figure>` dentro de `.project-gal
 
 Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no ocupan todo el ancho.
 
+## Métricas de visitas
+
+Las visitas se miden con Google Analytics 4 desde `analytics.js`. Para cambiar la propiedad, editá `GA_MEASUREMENT_ID` en ese archivo. El script no se carga si el ID es el de ejemplo ni al abrir el sitio en local. Cuando alguien envía el formulario de contacto se registra el evento `generate_lead`.
+
 ## Notas
 
 El formulario de contacto envía los mensajes a oliveraemanuel96@gmail.com a través de [FormSubmit](https://formsubmit.co) (gratis, sin cuenta). En el `action` del formulario se usa el código alias que dio FormSubmit en vez del mail, para no exponer la dirección a bots.
