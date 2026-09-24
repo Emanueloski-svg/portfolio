@@ -46,6 +46,7 @@ if (form) {
         throw new Error(result.message || 'Error al enviar');
       }
       form.reset();
+      if (window.gtag) window.gtag('event', 'generate_lead', { form_name: 'contacto' });
       showStatus('¡Gracias! Tu mensaje fue enviado, te responderé pronto.', 'success');
     } catch (error) {
       showStatus('No se pudo enviar el mensaje. Escríbeme directamente a oliveraemanuel96@gmail.com.', 'error');
