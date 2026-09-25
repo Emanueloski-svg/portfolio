@@ -33,6 +33,12 @@ Guardá la imagen en `assets/` y agregá otro `<figure>` dentro de `.project-gal
 
 Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no ocupan todo el ancho.
 
+## Vista previa al compartir e íconos
+
+- `assets/og/` tiene una imagen de 1200×630 por página, que es la que muestran WhatsApp, LinkedIn, Facebook, etc. al compartir un link (etiquetas `og:` en el `<head>`).
+- `assets/favicon.svg`, `favicon-32.png` y `apple-touch-icon.png` son el ícono de la pestaña y del acceso directo en celulares.
+- Si cambiás el texto de un proyecto, actualizá también su `description` y `og:description`.
+
 ## Métricas de visitas
 
 Las visitas se miden con Google Analytics 4 desde `analytics.js`. Para cambiar la propiedad, editá `GA_MEASUREMENT_ID` en ese archivo. El script no se carga si el ID es el de ejemplo ni al abrir el sitio en local. Cuando alguien envía el formulario de contacto se registra el evento `generate_lead`.
