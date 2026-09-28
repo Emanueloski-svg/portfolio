@@ -59,7 +59,7 @@ if (form) {
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-const portrait = document.querySelector('.about-photo img');
+const portrait = document.querySelector('.hero-photo img');
 
 // El retrato 3D se inclina levemente hacia donde está el mouse
 if (portrait && finePointer && !reduceMotion) {
