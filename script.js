@@ -47,9 +47,9 @@ if (form) {
       }
       form.reset();
       if (window.gtag) window.gtag('event', 'generate_lead', { form_name: 'contacto' });
-      showStatus('¡Gracias! Tu mensaje fue enviado, te responderé pronto.', 'success');
+      showStatus('¡Gracias! Tu mensaje fue enviado, te respondo a la brevedad.', 'success');
     } catch (error) {
-      showStatus('No se pudo enviar el mensaje. Escríbeme directamente a oliveraemanuel96@gmail.com.', 'error');
+      showStatus('No se pudo enviar el mensaje. Escribime directamente a oliveraemanuel96@gmail.com.', 'error');
     } finally {
       button.disabled = false;
       button.textContent = originalText;
@@ -59,7 +59,7 @@ if (form) {
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-const portrait = document.querySelector('.about-photo img');
+const portrait = document.querySelector('.hero-photo img');
 
 // El retrato 3D se inclina levemente hacia donde está el mouse
 if (portrait && finePointer && !reduceMotion) {
