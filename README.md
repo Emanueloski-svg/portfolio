@@ -4,11 +4,13 @@ Sitio de portfolio personal de Emanuel Olivera, diseñador gráfico y artista 3D
 
 ## Estructura
 
-- `index.html` — marcado de las secciones Sobre mí, Proyectos y Contacto
-- `proyectos/` — una subpágina por proyecto (descripción, ficha, imagen y navegación anterior/siguiente)
+- `index.html` — home con las secciones Inicio (hero), Sobre mí, Servicios, Proyectos (con la subsección "Arte 3D y NFT"), Experiencia y herramientas, y Contacto
+- `proyectos/` — una página por caso (descripción, ficha, imagen y navegación anterior/siguiente)
+- `copy-portfolio-v1.md` — textos fuente del sitio. Los datos pendientes están marcados en el HTML con comentarios `<!-- TODO: … -->`
 - `styles.css` — estilos y diseño responsive (home y subpáginas). Tipografías de Google Fonts: Syne (títulos) y Manrope (texto)
-- `script.js` — menú móvil y feedback del formulario de contacto
-- `assets/` — imágenes y assets exportados desde Figma
+- `script.js` — menú móvil, envío del formulario y animación del retrato
+- `analytics.js` — Google Analytics 4
+- `assets/` — imágenes, logo, íconos e imágenes para compartir (`assets/og/`)
 
 ## Uso local
 
