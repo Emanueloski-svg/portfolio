@@ -375,6 +375,83 @@ h2 {
 
 .btn-link--ghost:hover { background: rgba(255, 255, 255, 0.08); color: var(--accent); }
 
+/* Experience */
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 64px;
+  margin-top: 48px;
+  align-items: start;
+}
+
+.experience-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.skills .experience-title { margin-top: 40px; }
+.skills .experience-title:first-child { margin-top: 0; }
+
+.xp-list { list-style: none; margin: 0; padding: 0; }
+
+.xp-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 24px;
+  border-top: 1px solid var(--field-border);
+  padding: 20px 0;
+}
+
+.xp-date {
+  margin: 4px 0 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.xp-item h4 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.xp-role { margin: 0 0 8px; color: var(--accent); font-size: 16px; }
+
+.xp-item p:not(.xp-date):not(.xp-role) {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chips li {
+  padding: 6px 16px;
+  border: 1px solid var(--field-border);
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.plain-list { margin: 0; padding-left: 18px; }
+
+.plain-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
 /* Contact */
 .contact {
   position: relative;
@@ -506,6 +583,7 @@ h2 {
   .hero h1 { font-size: 44px; }
   .about-text { columns: 1; }
   .services-grid { grid-template-columns: 1fr; }
+  .experience-grid { grid-template-columns: 1fr; gap: 48px; }
   .projects-grid { grid-template-columns: 1fr; gap: 40px; }
   .project-body { grid-template-columns: 1fr; gap: 40px; }
   .project-hero h1 { font-size: 40px; }
@@ -544,6 +622,8 @@ h2 {
   .project-caption h4 { font-size: 22px; }
   .projects-sub { margin-top: 64px; }
   .projects-subtitle { font-size: 26px; }
+  .xp-item { grid-template-columns: 1fr; gap: 6px; }
+  .experience-title { font-size: 22px; }
   .project-cta { opacity: 1; transform: none; font-size: 12px; padding: 6px 14px; }
   .project-hero h1 { font-size: 32px; }
   .project-body p { font-size: 16px; }
