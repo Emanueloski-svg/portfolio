@@ -230,7 +230,18 @@ h2 {
 .project:hover .project-media img { transform: scale(1.03); }
 .project:hover .project-cta,
 .project:focus-visible .project-cta { opacity: 1; transform: none; }
-.project:hover .project-caption h3 { color: var(--accent); }
+.project:hover .project-caption h3,
+.project:hover .project-caption h4 { color: var(--accent); }
+
+.projects-sub { margin-top: 96px; }
+
+.projects-subtitle {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.projects-grid--pair { margin-top: 32px; }
 
 .project--nft1 .project-media,
 .project--nft2 .project-media { aspect-ratio: 1 / 1; }
@@ -240,7 +251,9 @@ h2 {
 
 .project-caption { padding: 16px 0 0; }
 
-.project-caption h3 {
+.project-caption h3,
+.project-caption h4 {
+  font-family: var(--font-display);
   font-size: 28px;
   font-weight: 700;
   margin: 0 0 4px;
@@ -527,7 +540,10 @@ h2 {
   .service h3 { font-size: 22px; }
   .service p { font-size: 16px; }
   .form-row { grid-template-columns: 1fr; }
-  .project-caption h3 { font-size: 22px; }
+  .project-caption h3,
+  .project-caption h4 { font-size: 22px; }
+  .projects-sub { margin-top: 64px; }
+  .projects-subtitle { font-size: 26px; }
   .project-cta { opacity: 1; transform: none; font-size: 12px; padding: 6px 14px; }
   .project-hero h1 { font-size: 32px; }
   .project-body p { font-size: 16px; }
