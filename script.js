@@ -47,9 +47,9 @@ if (form) {
       }
       form.reset();
       if (window.gtag) window.gtag('event', 'generate_lead', { form_name: 'contacto' });
-      showStatus('¡Gracias! Tu mensaje fue enviado, te responderé pronto.', 'success');
+      showStatus('¡Gracias! Tu mensaje fue enviado, te respondo a la brevedad.', 'success');
     } catch (error) {
-      showStatus('No se pudo enviar el mensaje. Escríbeme directamente a oliveraemanuel96@gmail.com.', 'error');
+      showStatus('No se pudo enviar el mensaje. Escribime directamente a oliveraemanuel96@gmail.com.', 'error');
     } finally {
       button.disabled = false;
       button.textContent = originalText;

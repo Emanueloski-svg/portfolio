@@ -484,6 +484,16 @@ h2 {
   max-width: 600px;
 }
 
+.contact h2 { font-size: 48px; line-height: 1.1; }
+
+.contact-lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 520px;
+  margin: 0 0 12px;
+}
+
 .contact-note {
   font-size: 14px;
   color: var(--muted);
@@ -584,6 +594,7 @@ h2 {
   .about-text { columns: 1; }
   .services-grid { grid-template-columns: 1fr; }
   .experience-grid { grid-template-columns: 1fr; gap: 48px; }
+  .contact h2 { font-size: 40px; }
   .projects-grid { grid-template-columns: 1fr; gap: 40px; }
   .project-body { grid-template-columns: 1fr; gap: 40px; }
   .project-hero h1 { font-size: 40px; }
@@ -624,6 +635,8 @@ h2 {
   .projects-subtitle { font-size: 26px; }
   .xp-item { grid-template-columns: 1fr; gap: 6px; }
   .experience-title { font-size: 22px; }
+  .contact h2 { font-size: 32px; }
+  .contact-lead { font-size: 16px; }
   .project-cta { opacity: 1; transform: none; font-size: 12px; padding: 6px 14px; }
   .project-hero h1 { font-size: 32px; }
   .project-body p { font-size: 16px; }
