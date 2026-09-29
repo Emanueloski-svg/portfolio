@@ -195,7 +195,6 @@ h2 {
   align-items: start;
 }
 
-.projects-col { display: flex; flex-direction: column; gap: 40px; }
 
 .project { display: block; }
 
@@ -245,11 +244,18 @@ h2 {
 
 .projects-grid--pair { margin-top: 32px; }
 
-.project--nft1 .project-media,
-.project--nft2 .project-media { aspect-ratio: 1 / 1; }
-.project--altana .project-media { aspect-ratio: 526 / 372; }
-.project--enerxiauy .project-media { aspect-ratio: 525 / 372; }
-.project--feria .project-media { aspect-ratio: 525 / 742; }
+.project--tall .project-media { aspect-ratio: 525 / 742; }
+.project--wide .project-media { aspect-ratio: 526 / 372; }
+.project--square .project-media { aspect-ratio: 1 / 1; }
+
+/* Featured grid: tall poster on the left spanning two rows, the rest in pairs */
+.projects-grid--featured { row-gap: 48px; }
+.projects-grid--featured .project--tall { grid-row: span 2; }
+
+.projects-grid--trio { grid-template-columns: repeat(3, 1fr); }
+.projects-grid--trio .project-caption h4 { font-size: 22px; }
+
+.project-caption .project-tag { margin-top: 10px; }
 
 .project-caption { padding: 16px 0 0; }
 
@@ -666,7 +672,9 @@ h2 {
   .services-grid { grid-template-columns: 1fr; }
   .experience-grid { grid-template-columns: 1fr; gap: 48px; }
   .contact h2 { font-size: 40px; }
-  .projects-grid { grid-template-columns: 1fr; gap: 40px; }
+  .projects-grid,
+  .projects-grid--trio { grid-template-columns: 1fr; gap: 40px; }
+  .projects-grid--featured .project--tall { grid-row: auto; }
   .project-body { grid-template-columns: 1fr; gap: 40px; }
   .project-hero h1 { font-size: 40px; }
   .contact-illustration { display: none; }
