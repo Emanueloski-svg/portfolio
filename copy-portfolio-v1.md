@@ -28,15 +28,82 @@ Hoy soy encargado de marketing y diseño en Antera Garden Supplies. Me interesa 
 
 ## 4. Proyectos
 
-Orden sugerido: destacar primero lo más cercano a tu dirección actual.
+Orden: branding y campañas primero; arte 3D y NFT como subsección aparte. Cada caso usa: Cliente · Rol · Qué hice · Resultado. Nota de redacción: los relatos son descriptivos y no incluyen cifras, métricas ni testimonios. Ampliar con imágenes propias (el autor las suma después).
 
-1. 44 Feria Internacional del Libro de Montevideo (afiche oficial) – diseño editorial / campaña
-2. Altana (branding)
-3. ENERXIAUY (branding)
-4. Sección aparte "Arte 3D y NFT": Operators Dream To · Yesterday I Had That Dream About the Snow
-5. [Sumar: piezas de la Cámara del Libro, contenido para redes, algún caso web o de marketing]
+### Proyectos destacados
 
-Plantilla para cada caso: Cliente · Rol · Qué hice · Resultado.
+#### 1. Afiche – 44ª Feria Internacional del Libro de Montevideo (2022)
+
+- Cliente: Cámara Uruguaya del Libro
+- Rol: Diseño gráfico e ilustración
+- Qué hice: Serie de seis afiches para la 44ª Feria Internacional del Libro. Cada afiche convierte un libro de color en un personaje con accesorios (sombrero, anteojos, corbata, auriculares) para transmitir que los gustos literarios son parte de quiénes somos, a cualquier edad. Trabajé con Illustrator y Blender.
+- Resultado: Una campaña visual reconocible, con una misma idea aplicada a seis piezas.
+- Herramientas: Illustrator, Blender
+- Enlace: https://www.behance.net/gallery/180575893/Afiche-de-la-44-Feria-Internacional-del-Libro-2022
+
+#### 2. Altana – identidad para productora de eventos
+
+- Cliente: Altana Uruguay, empresa organizadora de eventos
+- Rol: Diseño de identidad visual
+- Qué hice: Creé la marca completa para una empresa que organiza eventos y necesitaba una imagen propia. Diseñé el isologotipo en versiones apaisada y apilada, con variantes en degradado, negro y blanco para distintos fondos. Definí la tipografía (Lato en cuatro pesos) y armé el manual de identidad corporativa con las reglas de uso, además de fotos de perfil para redes.
+- Resultado: Una identidad flexible, con un sistema de logos listo para usar en redes, papelería y piezas de eventos.
+- Herramientas: Illustrator [confirmar]
+
+#### 3. ENERXIAUY – identidad para electricista emprendedor
+
+- Cliente: ENERXIAUY, emprendimiento de servicios eléctricos
+- Rol: Diseño de identidad visual
+- Qué hice: Diseñé la marca de un electricista emprendedor que necesitaba destacarse en un mercado con mucha competencia. Busqué una imagen simple, seria y fácil de reconocer, que transmita energía y confianza y funcione bien en vehículos, uniformes, redes y tarjetas.
+- Resultado: Una identidad profesional que le permite presentarse con más presencia frente a sus clientes.
+- Herramientas: Illustrator [confirmar]
+
+#### 4. Lo Tengo – identidad para e-commerce
+
+- Cliente: Lo Tengo, tienda online
+- Rol: Diseño de identidad visual
+- Qué hice: Desarrollé el branding de un e-commerce: logotipo en cuatro versiones, tipografía propia (Aron) combinada con Montserrat, manual de marca, favicons para la web y fotos de perfil para redes. Pensé la marca para verse clara en pantallas chicas y en tienda online.
+- Resultado: Un sistema de marca completo, listo para usar en el sitio y en redes sociales.
+- Herramientas: Illustrator [confirmar]
+
+#### 5. Mozzafiato – identidad para emprendimiento de pastas caseras
+
+- Cliente: Mozzafiato, emprendimiento de pastas caseras
+- Rol: Diseño de logotipo
+- Qué hice: Diseñé el logo de un emprendimiento de pastas caseras, con una imagen cálida y artesanal que transmite lo hecho a mano. Entregué el logotipo vectorizado (SVG y PDF) y una foto de perfil para redes.
+- Resultado: Una marca simple y cercana que ayuda a que el emprendimiento se reconozca en redes y en el packaging.
+- Herramientas: Illustrator [confirmar]
+
+#### 6. Congreso Uruguayo de Cirugía Plástica (2026)
+
+- Cliente: Congreso Uruguayo de Cirugía Plástica, Reconstructiva y Estética
+- Rol: Diseño de logotipo e identidad
+- Qué hice: Diseñé el logotipo de un congreso médico buscando unir rigor científico y sensibilidad humana. Una figura estilizada representa al ser humano como centro de la práctica, la curva sugiere cuidado y reconstrucción, y el círculo amarillo simboliza vitalidad y futuro. Entregué manual de identidad, versiones a color y monocromas, versión CMYK para imprimir, favicons y tipografías (Poppins y Syne).
+- Resultado: Una identidad cercana y contemporánea, que se aleja de los códigos fríos del sector.
+- Herramientas: Illustrator
+- Enlace: https://www.behance.net/gallery/242876131/Diseno-de-logo-Congreso-Uruguayo-de-Cirugia-Plastica
+
+#### 7. Auron – campaña conceptual de producto con IA (2026)
+
+- Cliente: Auron, marca ficticia de auriculares (proyecto conceptual)
+- Rol: Dirección creativa, generación de imágenes, animación y edición
+- Historia: Auron es una marca imaginaria de auriculares premium. La campaña presenta el producto con un video de estética cinematográfica: una órbita lenta de cámara que muestra sus reflejos y el detalle de luz azul, bajo iluminación de estudio controlada, pensado para redes sociales.
+- Qué hice: Generé las imágenes con Flux, las animé en Runway (órbita de cámara, sin deformaciones) y edité el resultado en DaVinci Resolve.
+- Resultado: Un spot corto de estilo premium que demuestra cómo llevar una idea de producto a video publicitario.
+- Herramientas: Flux, Runway, DaVinci Resolve
+- Enlace: https://www.behance.net/gallery/242660147/Auron-Headphones-Video-publicitario-generado-con-IA
+- Aviso: mostrar como "proyecto conceptual" en la web. No presentar Auron como cliente real.
+
+### Arte 3D y NFT
+
+- Customer service of your dreams (2022): video NFT para una colección en Objkt.com. Sátira distópica sobre una empresa que digitaliza sueños y tiene pésima atención al cliente. Modelado y animación en Blender, subtítulos en Premiere Pro. Enlace: https://www.behance.net/gallery/134104011/Customer-service-of-your-dreams
+- Operators Dream To (ya en el sitio)
+- Yesterday I Had That Dream About the Snow (ya en el sitio)
+
+### Excluidos
+
+- Adminova: no incluir.
+- My last 3D works (Behance): no incluir (repite Operators Dream To).
+- ENERXIAUY y otros: las imágenes las suma el autor después.
 
 ## 5. Experiencia
 

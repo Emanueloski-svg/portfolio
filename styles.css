@@ -195,7 +195,6 @@ h2 {
   align-items: start;
 }
 
-.projects-col { display: flex; flex-direction: column; gap: 40px; }
 
 .project { display: block; }
 
@@ -245,11 +244,18 @@ h2 {
 
 .projects-grid--pair { margin-top: 32px; }
 
-.project--nft1 .project-media,
-.project--nft2 .project-media { aspect-ratio: 1 / 1; }
-.project--altana .project-media { aspect-ratio: 526 / 372; }
-.project--enerxiauy .project-media { aspect-ratio: 525 / 372; }
-.project--feria .project-media { aspect-ratio: 525 / 742; }
+.project--tall .project-media { aspect-ratio: 525 / 742; }
+.project--wide .project-media { aspect-ratio: 526 / 372; }
+.project--square .project-media { aspect-ratio: 1 / 1; }
+
+/* Featured grid: tall poster on the left spanning two rows, the rest in pairs */
+.projects-grid--featured { row-gap: 48px; }
+.projects-grid--featured .project--tall { grid-row: span 2; }
+
+.projects-grid--trio { grid-template-columns: repeat(3, 1fr); }
+.projects-grid--trio .project-caption h4 { font-size: 22px; }
+
+.project-caption .project-tag { margin-top: 10px; }
 
 .project-caption { padding: 16px 0 0; }
 
@@ -329,6 +335,75 @@ h2 {
   color: var(--muted);
   margin-top: 12px;
   text-align: center;
+}
+
+/* Case study sections */
+.project-hero .project-tag { margin: 0 0 16px 12px; vertical-align: 2px; }
+
+.project-cover { margin: 48px 0 0; }
+.project-cover img,
+.project-cover video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: #1a1a1a;
+}
+.project-cover.is-narrow { max-width: 720px; margin-left: auto; margin-right: auto; }
+.project-cover .media-placeholder { aspect-ratio: 16 / 10; }
+
+.project-body { margin-top: 64px; }
+.project-description h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+.project-description h2 ~ h2 { margin-top: 32px; }
+
+.project-meta dd a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.project-meta dd a:hover { color: #ffd84d; }
+
+.case-gallery { margin-top: 72px; }
+.case-gallery h2 { font-size: 32px; font-weight: 800; margin: 0 0 24px; }
+.case-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.case-gallery-grid figure { margin: 0; }
+.case-gallery-grid img,
+.case-gallery-grid video { display: block; width: 100%; height: auto; border-radius: 4px; }
+.case-gallery-grid .media-placeholder { aspect-ratio: 4 / 3; }
+.case-gallery-grid .is-wide { grid-column: 1 / -1; }
+.case-gallery-grid .is-wide .media-placeholder { aspect-ratio: 16 / 9; }
+
+/* Placeholder until the real image is added */
+.media-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed var(--field-border);
+  border-radius: 4px;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0 12px, transparent 12px 24px),
+    rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.project-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 20px;
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .project-pager {
@@ -597,7 +672,9 @@ h2 {
   .services-grid { grid-template-columns: 1fr; }
   .experience-grid { grid-template-columns: 1fr; gap: 48px; }
   .contact h2 { font-size: 40px; }
-  .projects-grid { grid-template-columns: 1fr; gap: 40px; }
+  .projects-grid,
+  .projects-grid--trio { grid-template-columns: 1fr; gap: 40px; }
+  .projects-grid--featured .project--tall { grid-row: auto; }
   .project-body { grid-template-columns: 1fr; gap: 40px; }
   .project-hero h1 { font-size: 40px; }
   .contact-illustration { display: none; }
@@ -643,6 +720,8 @@ h2 {
   .project-hero h1 { font-size: 32px; }
   .project-body p { font-size: 16px; }
   .project-pager { grid-template-columns: 1fr; }
+  .case-gallery-grid { grid-template-columns: 1fr; }
+  .case-gallery h2 { font-size: 26px; }
   .project-pager a:last-child { text-align: left; }
   .social-footer { flex-wrap: wrap; padding: 32px 20px; }
 }

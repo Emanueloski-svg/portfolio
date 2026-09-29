@@ -5,7 +5,8 @@ Sitio de portfolio personal de Emanuel Olivera, diseñador gráfico y artista 3D
 ## Estructura
 
 - `index.html` — home con las secciones Inicio (hero), Sobre mí, Servicios, Proyectos (con la subsección "Arte 3D y NFT"), Experiencia y herramientas, y Contacto
-- `proyectos/` — una página por caso (descripción, ficha, imagen y navegación anterior/siguiente)
+- `proyectos/` — una página por caso: Qué hice / Resultado, ficha (Cliente · Rol · Año · Herramientas · Behance), imagen principal, galería y navegación anterior/siguiente
+- `claude-code-brief.md` — instrucciones de la actualización de contenido
 - `copy-portfolio-v1.md` — textos fuente del sitio. Los datos pendientes están marcados en el HTML con comentarios `<!-- TODO: … -->`
 - `styles.css` — estilos y diseño responsive (home y subpáginas). Tipografías de Google Fonts: Syne (títulos) y Manrope (texto)
 - `script.js` — menú móvil, envío del formulario y animación del retrato
@@ -22,18 +23,30 @@ npx serve .
 
 o simplemente abrir `index.html` en el navegador.
 
-## Agregar imágenes a un proyecto
+## Agregar imágenes a los proyectos
 
-Guardá la imagen en `assets/` y agregá otro `<figure>` dentro de `.project-gallery` en la subpágina correspondiente:
+Cada caso tiene espacios provisorios ("Imagen pendiente") en la home y en su página. Junto a cada uno hay un comentario `<!-- TODO imagen: … -->` con la ruta esperada y la etiqueta `<img>` (o `<video>`) lista, con su `alt`.
 
-```html
-<figure>
-  <img src="../assets/mi-imagen.jpg" alt="Descripción" loading="lazy" />
-  <figcaption>Texto opcional</figcaption>
-</figure>
-```
+Para completar un espacio:
 
-Usá `<figure class="is-narrow">` para piezas verticales o cuadradas, así no ocupan todo el ancho.
+1. Guardá el archivo optimizado (`.webp` o `.jpg`; el video en `.mp4` liviano) en la ruta que indica el comentario.
+2. Reemplazá el `<div class="media-placeholder" …>` por la etiqueta del comentario y borrá el comentario.
+3. Si la imagen principal cambia, regenerá su imagen para compartir en `assets/og/`.
+
+Archivos esperados:
+
+| Caso | Carpeta | Archivos |
+|---|---|---|
+| 44ª Feria Internacional del Libro de Montevideo | `assets/proyectos/feria-del-libro/` | `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp`, `galeria-04.webp`, `galeria-05.webp` |
+| Altana | `assets/proyectos/altana/` | `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
+| ENERXIAUY | `assets/proyectos/enerxiauy/` | `galeria-01.webp`, `galeria-02.webp` |
+| Lo Tengo | `assets/proyectos/lo-tengo/` | `portada.webp` (principal), `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
+| Mozzafiato | `assets/proyectos/mozzafiato/` | `portada.webp` (principal), `galeria-01.webp` |
+| Congreso Uruguayo de Cirugía Plástica | `assets/proyectos/congreso-cirugia-plastica/` | `portada.webp` (principal), `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
+| Auron | `assets/proyectos/auron/` | `portada.webp` (principal), `spot.mp4`, `galeria-01.webp` |
+| Customer service of your dreams | `assets/proyectos/customer-service-of-your-dreams/` | `video.mp4` (principal), `portada.webp` (tarjeta de la home) |
+
+Feria del Libro, Altana, ENERXIAUY, Operators Dream To y Yesterday I Had That Dream About the Snow ya usan como imagen principal las que están en `assets/proj-*`.
 
 ## Vista previa al compartir e íconos
 
