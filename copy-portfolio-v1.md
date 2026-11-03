@@ -47,7 +47,7 @@ Orden: branding y campañas primero; arte 3D y NFT como subsección aparte. Cada
 - Rol: Diseño de identidad visual
 - Qué hice: Creé la marca completa para una empresa que organiza eventos y necesitaba una imagen propia. Diseñé el isologotipo en versiones apaisada y apilada, con variantes en degradado, negro y blanco para distintos fondos. Definí la tipografía (Lato en cuatro pesos) y armé el manual de identidad corporativa con las reglas de uso, además de fotos de perfil para redes.
 - Resultado: Una identidad flexible, con un sistema de logos listo para usar en redes, papelería y piezas de eventos.
-- Herramientas: Illustrator [confirmar]
+- Herramientas: Illustrator
 
 #### 3. ENERXIAUY – identidad para electricista emprendedor
 
@@ -55,7 +55,7 @@ Orden: branding y campañas primero; arte 3D y NFT como subsección aparte. Cada
 - Rol: Diseño de identidad visual
 - Qué hice: Diseñé la marca de un electricista emprendedor que necesitaba destacarse en un mercado con mucha competencia. Busqué una imagen simple, seria y fácil de reconocer, que transmita energía y confianza y funcione bien en vehículos, uniformes, redes y tarjetas.
 - Resultado: Una identidad profesional que le permite presentarse con más presencia frente a sus clientes.
-- Herramientas: Illustrator [confirmar]
+- Herramientas: Illustrator
 
 #### 4. Lo Tengo – identidad para e-commerce
 
@@ -63,7 +63,7 @@ Orden: branding y campañas primero; arte 3D y NFT como subsección aparte. Cada
 - Rol: Diseño de identidad visual
 - Qué hice: Desarrollé el branding de un e-commerce: logotipo en cuatro versiones, tipografía propia (Aron) combinada con Montserrat, manual de marca, favicons para la web y fotos de perfil para redes. Pensé la marca para verse clara en pantallas chicas y en tienda online.
 - Resultado: Un sistema de marca completo, listo para usar en el sitio y en redes sociales.
-- Herramientas: Illustrator [confirmar]
+- Herramientas: Illustrator
 
 #### 5. Mozzafiato – identidad para emprendimiento de pastas caseras
 
@@ -71,7 +71,7 @@ Orden: branding y campañas primero; arte 3D y NFT como subsección aparte. Cada
 - Rol: Diseño de logotipo
 - Qué hice: Diseñé el logo de un emprendimiento de pastas caseras, con una imagen cálida y artesanal que transmite lo hecho a mano. Entregué el logotipo vectorizado (SVG y PDF) y una foto de perfil para redes.
 - Resultado: Una marca simple y cercana que ayuda a que el emprendimiento se reconozca en redes y en el packaging.
-- Herramientas: Illustrator [confirmar]
+- Herramientas: Illustrator
 
 #### 6. Congreso Uruguayo de Cirugía Plástica (2026)
 

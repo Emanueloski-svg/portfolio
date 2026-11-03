@@ -33,20 +33,16 @@ Para completar un espacio:
 2. Reemplazá el `<div class="media-placeholder" …>` por la etiqueta del comentario y borrá el comentario.
 3. Si la imagen principal cambia, regenerá su imagen para compartir en `assets/og/`.
 
-Archivos esperados:
+Altana, Congreso Uruguayo de Cirugía Plástica, Lo Tengo y Mozzafiato ya tienen portada y galería completas (sacadas de sus manuales de marca y logos). Faltan:
 
 | Caso | Carpeta | Archivos |
 |---|---|---|
-| 44ª Feria Internacional del Libro de Montevideo | `assets/proyectos/feria-del-libro/` | `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp`, `galeria-04.webp`, `galeria-05.webp` |
-| Altana | `assets/proyectos/altana/` | `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
+| 44ª Feria Internacional del Libro de Montevideo | `assets/proyectos/feria-del-libro/` | `galeria-01.webp` … `galeria-05.webp` (los otros afiches de la serie) |
 | ENERXIAUY | `assets/proyectos/enerxiauy/` | `galeria-01.webp`, `galeria-02.webp` |
-| Lo Tengo | `assets/proyectos/lo-tengo/` | `portada.webp` (principal), `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
-| Mozzafiato | `assets/proyectos/mozzafiato/` | `portada.webp` (principal), `galeria-01.webp` |
-| Congreso Uruguayo de Cirugía Plástica | `assets/proyectos/congreso-cirugia-plastica/` | `portada.webp` (principal), `galeria-01.webp`, `galeria-02.webp`, `galeria-03.webp` |
 | Auron | `assets/proyectos/auron/` | `portada.webp` (principal), `spot.mp4`, `galeria-01.webp` |
 | Customer service of your dreams | `assets/proyectos/customer-service-of-your-dreams/` | `video.mp4` (principal), `portada.webp` (tarjeta de la home) |
 
-Feria del Libro, Altana, ENERXIAUY, Operators Dream To y Yesterday I Had That Dream About the Snow ya usan como imagen principal las que están en `assets/proj-*`.
+Feria del Libro, ENERXIAUY, Operators Dream To y Yesterday I Had That Dream About the Snow usan como imagen principal las que están en `assets/proj-*`.
 
 ## Vista previa al compartir e íconos
 
